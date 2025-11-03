@@ -69,7 +69,7 @@ You should see:
 2. Laser scan
 3. SLAM-generated map updating in real time
 
-🎮 Step 5: Move the Robot (Teleoperation)
+## 🎮 Step 5: Move the Robot (Teleoperation)
 Control the robot manually using keyboard teleoperation:
 ```bash
 ros2 run turtlebot3_teleop teleop_keyboard
