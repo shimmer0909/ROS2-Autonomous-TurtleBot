@@ -35,13 +35,13 @@ Two simulated worlds were used:
 
 ROS2-Autonomous-TurtleBot/
 │
-├── docs/ # Detailed notes, commands, setup guides
-│   ├── 01_setup.md # Installations and setup steps
-│   ├── 02_turtleBot3_world.md # How to launch and create turtleBot3 world's map
-│   ├── 03_turtleBot3_house_world.md # How to launch and create turtleBot3 house world's map
-│   ├── 04_autonomous_exploration.md
+├── docs/                      # Detailed notes, commands, setup guides
+│   ├── 01_setup.md            # Installations and setup steps
+│   ├── 02_turtleBot3_world.md # How to launch and create TurtleBot3 World map
+│   ├── 03_turtleBot3_house_world.md # How to launch and create TurtleBot3 House World map
+│   ├── 04_autonomous_exploration.md # Explore Lite autonomous mapping steps
 │
-├── assets/ # Screenshots, GIFs, and videos
+├── assets/                    # Screenshots, GIFs, and videos
 │   ├── turtlebot3_world.png
 │   ├── turtlebot3_house.png
 │   ├── slam_demo.gif
