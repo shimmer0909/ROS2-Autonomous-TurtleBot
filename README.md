@@ -33,6 +33,9 @@ Two simulated worlds were used:
 
 ## 🗂️ Repository Structure
 
+## 🗂️ Repository Structure
+
+```text
 ROS2-Autonomous-TurtleBot/
 │
 ├── docs/                      # Detailed notes, commands, setup guides
@@ -49,6 +52,7 @@ ROS2-Autonomous-TurtleBot/
 │   └── exploration_demo.gif
 │
 └── README.md
+```
 
 ## ⚙️ Software Stack
 
