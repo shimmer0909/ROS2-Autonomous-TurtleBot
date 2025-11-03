@@ -1,2 +1,64 @@
-# ROS2-Autonomous-TurtleBot
-A full documentation-style showcase of how you used TurtleBot3 with ROS2 to perform SLAM and Navigation 2 in Gazebo and visualize in Rviz.
+# 🤖 Project 1: ROS2 Autonomous TurtleBot
+
+A complete exploration of **robot autonomy using ROS2 and TurtleBot3** — performing **mapping (SLAM)** and **navigation (Nav2)** inside Gazebo simulation and visualized with Rviz.  
+This is my **first full integration project** after learning core ROS2 concepts from my [Robotics Basics](https://github.com/shimmer0909/Robotics-basics) repository.
+
+---
+
+## 🧭 Project Overview
+
+This project demonstrates how a **TurtleBot3 robot** can:
+1. Map an unknown environment using **SLAM**.
+2. Navigate autonomously using the **Nav2 stack**.
+3. Simulate in **Gazebo** and visualize data in **Rviz2**.
+
+Two simulated worlds were used:
+
+| Map | Description |
+|------|--------------|
+| 🗺️ **TurtleBot3 World** | A clean, open environment for initial testing |
+| 🏠 **TurtleBot3 House World** | A realistic indoor environment for navigation challenges |
+
+---
+
+## 🧩 Learning Objectives
+
+- Setup and run TurtleBot3 simulation in Gazebo  
+- Generate maps using SLAM (`slam_toolbox` / `cartographer`)  
+- Navigate using the ROS2 Nav2 stack  
+- Visualize robot pose, laser scans, and map building in Rviz  
+- Understand the overall flow from perception → localization → planning → control  
+
+---
+
+## 🗂️ Repository Structure
+
+ROS2-Autonomous-TurtleBot/
+│
+├── docs/ # Detailed notes, commands, setup guides
+│   ├── 01_setup.md # Installations and setup steps
+│   ├── 02_turtleBot3_world.md # How to launch and create turtleBot3 world's map
+│   ├── 03_turtleBot3_house_world.md # How to launch and create turtleBot3 house world's map
+│   ├── 04_autonomous_exploration.md
+│
+├── assets/ # Screenshots, GIFs, and videos
+│   ├── turtlebot3_world.png
+│   ├── turtlebot3_house.png
+│   ├── slam_demo.gif
+│   ├── nav2_demo.gif
+│   └── exploration_demo.gif
+│
+└── README.md
+
+## ⚙️ Software Stack
+
+| Component | Version / Tool |
+|------------|----------------|
+| **ROS2 Distribution** | Humble Hawksbill (recommended) |
+| **Robot** | TurtleBot3 Burger / Waffle Pi |
+| **Simulation** | Gazebo Classic |
+| **Mapping** | SLAM Toolbox |
+| **Navigation** | Nav2 Stack |
+| **Visualization** | Rviz2 |
+
+---
