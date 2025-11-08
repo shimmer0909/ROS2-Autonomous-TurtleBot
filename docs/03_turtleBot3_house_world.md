@@ -60,7 +60,14 @@ In Rviz, enable:
 5. Odometry
 You should now see your TurtleBot3 exploring and mapping the house.
 
-## 🎮 Step 5: Move the Robot (Teleoperation)
+## 🤖 Step 5: Launch Nav2 for Autonomous Navigation
+Once the map is built, you can launch the Navigation2 (Nav2) stack:
+```bash
+ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True
+```
+This enables autonomous navigation — you can click “2D Goal Pose” in Rviz to send the robot to a target point.
+
+## 🎮 Step 6: Move the Robot (Teleoperation)
 Control the robot manually using keyboard teleoperation:
 ```bash
 ros2 run turtlebot3_teleop teleop_keyboard
@@ -71,13 +78,6 @@ Use the arrow keys to move the robot and explore the map.
 3. a - Turn left
 4. d - Turn right
 5. s - Stop
-
-## 🤖 Step 6: Launch Nav2 for Autonomous Navigation
-Once the map is built, you can launch the Navigation2 (Nav2) stack:
-```bash
-ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True
-```
-This enables autonomous navigation — you can click “2D Goal Pose” in Rviz to send the robot to a target point.
 
 ## 💾 Step 7: Save the Map
 After finishing mapping, save the map to your workspace:
