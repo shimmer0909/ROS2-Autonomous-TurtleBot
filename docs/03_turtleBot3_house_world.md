@@ -61,7 +61,7 @@ In Rviz, enable:
 You should now see your TurtleBot3 exploring and mapping the house.
 
 ## 🤖 Step 5: Launch Nav2 for Autonomous Navigation
-Once the map is built, you can launch the Navigation2 (Nav2) stack:
+you can launch the Navigation2 (Nav2) stack:
 ```bash
 ros2 launch nav2_bringup navigation_launch.py use_sim_time:=True
 ```
