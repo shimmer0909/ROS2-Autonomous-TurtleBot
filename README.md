@@ -33,23 +33,21 @@ Two simulated worlds were used:
 
 ## 🗂️ Repository Structure
 
-## 🗂️ Repository Structure
-
 ```text
 ROS2-Autonomous-TurtleBot/
 │
-├── docs/                      # Detailed notes, commands, setup guides
-│   ├── 01_setup.md            # Installations and setup steps
-│   ├── 02_turtleBot3_world.md # How to launch and create TurtleBot3 World map
-│   ├── 03_turtleBot3_house_world.md # How to launch and create TurtleBot3 House World map
-│   ├── 04_autonomous_exploration.md # Explore Lite autonomous mapping steps
+├── Autonomous_Exploration/                      # Ways to automate map generation
+│   ├── auto_waypoint_generator            # Automate waypoint generation
+│   ├── explore_lite         # Inbuild package (Doesn't work good for indoor maps)
+│   ├── nav2_bt_navigator        # Use Rviz to set waypoints for exploration and mapping (Not fully autonated)
+│   ├── nav2_explore        # Experimental package (Didn't work for me)
 │
-├── assets/                    # Screenshots, GIFs, and videos
-│   ├── turtlebot3_world.png
-│   ├── turtlebot3_house.png
-│   ├── slam_demo.gif
-│   ├── nav2_demo.gif
-│   └── exploration_demo.gif
+├── Setup/                    # Pre-requisites and setup for Turtlebot3, Gazebo, Nav2, Slam, Rviz
+│   ├── setup.md
+│
+├── Manual_Exploration/               # Manual map creation steps and samples
+│   ├── TurtleBot3_House_World
+│   ├── TurtleBot3_World
 │
 └── README.md
 ```

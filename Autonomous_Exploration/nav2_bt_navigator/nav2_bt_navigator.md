@@ -69,3 +69,6 @@ This saves:
 2. The Global Planner / Planner Server computes the optimal path for the robot to reach each waypoint.
 
 3. The Controller Server provides reactiveness to the plan by handling unforeseen circumstances (e.g., obstacles or sudden changes), enabling reliable autonomous navigation and mapping.
+
+### Video
+[Final Demo](https://drive.google.com/file/d/1XnZgQ08SguBevJObjuK7yJiCiJ3NJSEs/view?usp=drive_link)
